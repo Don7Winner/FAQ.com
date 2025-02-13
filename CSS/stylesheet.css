@@ -1,0 +1,64 @@
+body {
+  background-image: url(/assets/images/background-pattern-desktop.svg),
+    linear-gradient(hsl(275, 100%, 97%), hsl(275, 100%, 97%));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  font-family: "Work Sans", serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.FAQ {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.8rem;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  padding: 2rem 2rem 1rem;
+  margin-bottom: 1rem;
+  width: 500px;
+}
+.header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+h1 {
+  color: hsl(292, 42%, 14%);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.minus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.sub-header {
+  margin-bottom: 1rem;
+}
+.visibility {
+  visibility: hidden;
+}
+h3 {
+  color: hsl(292, 42%, 14%);
+  font-weight: 600;
+}
+p {
+  color: hsl(292, 16%, 49%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

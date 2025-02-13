@@ -1,0 +1,14 @@
+@media (max-width: 580px) {
+  .FAQ {
+    width: 380px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 420px) {
+  body {
+    background-image: url(../assets/images/background-pattern-mobile.svg);
+  }
+  .FAQ {
+    width: 300px;
+  }
+}
