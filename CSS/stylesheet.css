@@ -1,9 +1,10 @@
 body {
-  background-image: url(git /assets/images/background-pattern-desktop.svg),
+  background-image: url(../assets/images/background-pattern-desktop.svg),
     linear-gradient(hsl(275, 100%, 97%), hsl(275, 100%, 97%));
-  background-size: contain;
   background-repeat: no-repeat;
   background-blend-mode: darken;
+  background-size: contain;
+
   font-family: "Work Sans", serif;
   font-size: 14px;
   font-weight: 400;
@@ -12,6 +13,7 @@ body {
   display: grid;
   place-items: center;
 }
+
 * {
   box-sizing: border-box;
   padding: 0;
