@@ -50,6 +50,9 @@ h1 {
 .visibility {
   visibility: hidden;
 }
+h2 {
+  font-size: 1rem;
+}
 h3 {
   color: hsl(292, 42%, 14%);
   font-weight: 600;
